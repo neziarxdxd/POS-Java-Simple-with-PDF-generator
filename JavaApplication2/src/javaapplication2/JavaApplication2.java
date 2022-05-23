@@ -26,9 +26,13 @@ public class JavaApplication2 {
         productList.add(new Product("Mountain Dew",34,categoryProduct.beverages ));
         productList.add(new Product("Ligo Sardines",25,categoryProduct.cannedFoodPack ));
         productList.add(new Product("Pancit Canton",16.5, categoryProduct.cannedFoodPack));
-        
-        //System.out.println(listOfItems.getSpecificCategory(categoryProduct.beverages));
-        
+        String name = "Pancit Ca-nton";
+        System.out.println(listOfItems.getSpecificCategory(categoryProduct.beverages));
+//        for(Product product:productList){
+//            if(name.equals(product.nameOfProduct)){
+//                System.out.println(product.priceOfProduct);
+//            }
+//        }
     }
     
 }

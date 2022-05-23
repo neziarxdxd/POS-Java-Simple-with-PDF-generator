@@ -37,6 +37,18 @@ public class ListOfItems {
       return categoryProduct;
     }
     
+    public double getSpecificProductPrice(String name){
+        double priceProduct=0;
+    for(Product product:productList){
+            if(name.equals(product.nameOfProduct)){
+                priceProduct=product.priceOfProduct;
+                System.out.println(product.priceOfProduct);
+            }
+        }
+    return priceProduct;
+ 
+    }
+    
     
     
     
